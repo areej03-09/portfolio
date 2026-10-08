@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Areej Al-Dobagh, Full-Stack Web Developer">
+  <title>Areej Al-Dobagh | Full-Stack Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-container">
+    <a class="logo" href="#about">Areej Al-Dobagh</a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="tools">
+      <button id="theme-btn" type="button" aria-label="Switch between light and dark theme" aria-pressed="false">🌙</button>
+    </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about">
+      <div class="about-main">
+      <div class="photo-frame">
+        <img id="profile-photo" src="assets/Areej.jpg" alt="Areej Al-Dobagh photo" width="320" height="400">
+      </div>
+      <div class="about-text">
+        <h1>Areej Al-Dobagh</h1>
+        <p class="role">Full-Stack Web Developer · Secure by design</p>
+        <h2 class="sub">About Me</h2>
+        <p>I am a full-stack web developer with a B.Sc. in Cybersecurity. I build responsive React.js, Flask and Firebase applications and write secure code that follows OWASP practices.</p>
+        <p>I delivered a complete 8+ page web application for a real client, from planning to deployment, and I am now looking for a junior full-stack or frontend role.</p>
+        <div class="actions">
+          <a class="btn" href="#projects">View my projects</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+        <ul class="stats">
+          <li><strong>8+</strong><span>pages delivered for a real client</span></li>
+          <li><strong>4</strong><span>course projects passed</span></li>
+          <li><strong>B.Sc.</strong><span>in Cybersecurity</span></li>
+        </ul>
+      </div>
+      </div>
+      <aside class="facts" aria-label="Experience and education">
+        <div class="table-wrap">
+          <table>
+            <caption>Experience &amp; education</caption>
+            <thead><tr><th scope="col">When</th><th scope="col">What</th><th scope="col">Where</th></tr></thead>
+            <tbody>
+              <tr><td>Jan 2026</td><td>Full Stack Web Development Professional Training</td><td>Hashemite University (NOMU Al-Ghurair)</td></tr>
+              <tr><td>Dec 2025</td><td>SOC Trainee</td><td>Green Circle, Amman</td></tr>
+              <tr><td>2025</td><td>Freelance Full-Stack Web Developer</td><td>Mohja Company</td></tr>
+              <tr><td>Jul 2025</td><td>B.Sc. in Cybersecurity</td><td>Zarqa University</td></tr>
+              <tr><td>Oct 2024</td><td>Frontend Developer Intern</td><td>Softylous, Zarqa</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </aside>
+    </section>
+
+    <section id="skills">
+      <h2>What I Know</h2>
+      <div class="card-container skills">
+        <div class="card"><h3>Frontend</h3><ul class="chips"><li>HTML5</li><li>CSS3</li><li>JavaScript (ES6+)</li><li>React.js</li><li>Responsive Design</li></ul></div>
+        <div class="card"><h3>Backend &amp; Data</h3><ul class="chips"><li>Python (Flask)</li><li>REST APIs</li><li>SQL</li><li>Firebase</li></ul></div>
+        <div class="card"><h3>Security &amp; Tools</h3><ul class="chips"><li>Secure Coding (OWASP)</li><li>Splunk &amp; Log Analysis</li><li>Git &amp; GitHub</li><li>Linux</li></ul></div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>What I Built</h2>
+      <p>Four course projects from the Web Piscine, each completed and passed in peer evaluation.</p>
+      <div class="card-container">
+        <article class="card project">
+          <span class="badge">Passed</span>
+          <h3><span class="num">00</span>Linux, Git &amp; GitHub</h3>
+          <p>Worked entirely in the terminal: built a directory tree, wrote a shell script that creates, copies, renames and deletes files, then versioned the work with Git and published it to a public GitHub repository. Bonus: SSH key authentication with ed25519.</p>
+          <ul class="tags"><li>pwd · ls · cd · mkdir -p</li><li>Shell script</li><li>git add / commit / push</li><li>SSH</li></ul>
+          <a href="https://github.com/areej03-09/discovery-web-piscine" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </article>
+        <article class="card project">
+          <span class="badge">Passed</span>
+          <h3><span class="num">01</span>HTML Fundamentals</h3>
+          <p>Six pages that cover the structure of the web: a valid HTML5 document, text hierarchy, links and images, lists and data tables, an accessible registration form with native validation, and a technical blog built from semantic landmarks.</p>
+          <ul class="tags"><li>Semantic HTML5</li><li>Accessible forms</li><li>Tables &amp; lists</li><li>Landmarks</li></ul>
+          <a href="https://github.com/areej03-09/project01" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </article>
+        <article class="card project">
+          <span class="badge">Passed</span>
+          <h3><span class="num">02</span>CSS &amp; Visual Presentation</h3>
+          <p>Designed interfaces with Flexbox navigation and card grids, fixed and absolute positioning, shapes drawn in pure CSS, colour models with RGBA versus opacity, and the box model with a universal reset. Bonus: a looping loader and hover micro-interactions.</p>
+          <ul class="tags"><li>Flexbox</li><li>Positioning</li><li>Box model</li><li>Animations</li></ul>
+          <a href="https://github.com/areej03-09/project02-CSS" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </article>
+        <article class="card project">
+          <span class="badge">Passed</span>
+          <h3><span class="num">03</span>JavaScript &amp; Interactivity</h3>
+          <p>Moved from variables and functions to DOM manipulation and events: a grade calculator, a click counter that changes colour with its value, and a task manager that adds, completes and deletes tasks while keeping a live counter.</p>
+          <ul class="tags"><li>ES6+</li><li>DOM</li><li>Events</li><li>DevTools</li></ul>
+          <a href="https://github.com/areej03-09/project03" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </article>
+      </div>
+
+      <h3 class="subhead">Professional work</h3>
+      <div class="card-container">
+        <article class="card project">
+          <span class="badge">Live</span>
+          <h3>Mohja Company Website</h3>
+          <p>Freelance project for a real client: 8+ pages in React.js, an admin dashboard, Firebase Authentication, Firestore security rules and role-based access.</p>
+          <a href="https://mohja-1a6d4.web.app/" target="_blank" rel="noopener noreferrer">Visit the live site</a>
+        </article>
+        <article class="card project">
+          <span class="badge">Graduation</span>
+          <h3>Secure Content Grabber</h3>
+          <p>Graduation project: a React.js and Flask application for AI-powered video analysis with JWT authentication, input validation and XSS protection.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="hobbies">
+      <h2>What I Love</h2>
+      <div class="card-container">
+        <div class="card hobby">Cybersecurity and threat hunting</div>
+        <div class="card hobby">Teaching and mentoring youth</div>
+        <div class="card hobby">UI/UX design</div>
+        <div class="card hobby">Learning new technologies</div>
+        <div class="card hobby">Reading books</div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Get In Touch</h2>
+      <div class="contact-wrap">
+      <div class="contact-info">
+      <p>Open to junior full-stack and cybersecurity. Write to me and I will reply soon.</p>
+      <p class="links">
+        <a href="mailto:areejaldabbagh03@gmail.com">Email</a><br>
+        <a href="https://github.com/areej03-09?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub</a> ·
+        <a href="https://linkedin.com/in/areej-al-dobagh" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </p>
+      </div>
+      <form id="contact-form">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" autocomplete="name" minlength="2" required>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required>
+        <label for="topic">Reason for contact</label>
+        <select id="topic" name="topic" required>
+          <option value="Job opportunity">Job opportunity</option>
+          <option value="Freelance project">Freelance project</option>
+          <option value="Collaboration">Collaboration</option>
+          <option value="Something else">Something else</option>
+        </select>
+        <fieldset>
+          <legend>Reply by</legend>
+          <label class="inline"><input type="radio" name="reply" value="email" checked> Email</label>
+          <label class="inline"><input type="radio" name="reply" value="linkedin"> LinkedIn</label>
+        </fieldset>
+        <label for="msg">Message</label>
+        <textarea id="msg" name="message" rows="4" minlength="10" required></textarea>
+        <button type="submit">Send Message</button>
+        <p id="form-status" role="status"></p>
+      </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Areej Al-Dobagh. Zarqa, Jordan.</p>
+  </footer>
+
+  <button id="back-to-top" type="button" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
