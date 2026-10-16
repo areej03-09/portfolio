@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Areej Al-Dobagh, Junior Full-Stack Web Developer with a B.Sc. in Cybersecurity — React.js, Flask, Firebase, secure by design.">
+  <meta name="author" content="Areej Al-Dobagh">
+  <meta property="og:title" content="Areej Al-Dobagh | Full-Stack Web Developer">
+  <meta property="og:description" content="Full-stack web developer with a cybersecurity background, building secure and responsive web applications.">
+  <meta property="og:type" content="website">
+  <title>Areej Al-Dobagh</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2314385e'/%3E%3Ctext x='32' y='43' font-family='Arial' font-size='30' font-weight='bold' fill='%23e8b64c' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-container">
+      <a class="logo" href="#about">Areej <span>Al-Dobagh</span></a>
+      <nav id="nav-menu" aria-label="Main navigation">
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#experience" data-i18n="nav.experience">Experience</a>
+        <a href="#edge" data-i18n="nav.edge">My Edge</a>
+        <a href="#skills" data-i18n="nav.skills">Skills</a>
+        <a href="#projects" data-i18n="nav.projects">Projects</a>
+        <a href="#certificates" data-i18n="nav.certificates">Certificates</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="tools">
+        <button id="lang-btn" type="button" aria-label="Switch language">عربي</button>
+        <button id="theme-btn" type="button" aria-label="Switch between light and dark theme" aria-pressed="false">🌙</button>
+        <button id="menu-btn" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about">
+      <div class="about-main">
+        <div class="photo-frame">
+          <img id="profile-photo" src="assets/Areej-portfolio.jpg" alt="Areej Al-Dobagh graduation photo with roses" width="320" height="400">
+          <img class="photo-alt" src="assets/Areej2-portfolio.jpg" alt="Areej Al-Dobagh graduation photo holding her laptop" width="320" height="400">
+        </div>
+        <div class="about-text">
+          <h1>Areej Al-Dobagh</h1>
+          <p class="role" data-i18n="about.role">Full-Stack Web Developer · Cybersecurity — I work in both, and I’m looking for roles in both</p>
+          <p data-i18n="about.p1">Full-stack web developer with a B.Sc. in Cybersecurity and hands-on SOC experience. I build web applications (React.js, Flask, Firebase) and I secure them — so I’m looking for junior roles in both fields: web development and cybersecurity, especially where they meet.</p>
+          <p data-i18n="about.p2">I delivered a complete 8+ page production application for a real client, and monitored real security alerts in a SOC. Two skills, one goal: software that works beautifully — and doesn’t get hacked.</p>
+          <div class="actions">
+            <a class="btn" href="#projects" data-i18n="about.btn1">View my projects</a>
+            <a class="btn btn-ghost" href="#contact" data-i18n="about.btn2">Get in touch</a>
+            <a class="btn btn-ghost" href="Areej_Al-Dobagh_CV.pdf" download data-i18n="about.btn3">⬇ Download CV</a>
+          </div>
+          <ul class="stats">
+            <li><strong>8+</strong><span data-i18n="about.stat1">pages delivered for a real client</span></li>
+            <li><strong>4</strong><span data-i18n="about.stat2">course projects passed</span></li>
+            <li><span data-i18n="about.stat3">B.Sc. GPA (Excellent)</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <aside class="facts reveal" id="experience" aria-label="Experience and education">
+        <div class="table-wrap">
+          <table>
+            <caption data-i18n="exp.caption">Experience &amp; education</caption>
+            <thead><tr><th scope="col" data-i18n="exp.th1">When</th><th scope="col" data-i18n="exp.th2">What</th><th scope="col" data-i18n="exp.th3">Where</th></tr></thead>
+            <tbody>
+              <tr><td data-i18n="exp.r1w">Jan 2026</td><td data-i18n="exp.r1x">Full Stack Web Development Professional Training</td><td data-i18n="exp.r1y">Hashemite University (NOMU Al-Ghurair / HTUx)</td></tr>
+              <tr><td data-i18n="exp.r2w">Sep – Dec 2025</td><td data-i18n="exp.r2x">SOC Trainee — real-time monitoring &amp; log analysis with Splunk</td><td data-i18n="exp.r2y">Green Circle, Amman</td></tr>
+              <tr><td data-i18n="exp.r3w">2025</td><td data-i18n="exp.r3x">Freelance Full-Stack Web Developer — Mohja Company website</td><td data-i18n="exp.r3y">Mohja Company (Remote)</td></tr>
+              <tr><td data-i18n="exp.r4w">Jul 2025</td><td data-i18n="exp.r4x">B.Sc. in Cybersecurity (Excellent)</td><td data-i18n="exp.r4y">Zarqa University</td></tr>
+              <tr><td data-i18n="exp.r5w">Aug – Oct 2024</td><td data-i18n="exp.r5x">Frontend Developer Intern</td><td data-i18n="exp.r5y">Softylous, Zarqa</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </aside>
+    </section>
+
+    <section id="edge">
+      <h2 data-i18n="edge.h2">Why Security + Development?</h2>
+      <p class="edge-lead" data-i18n-html="edge.lead">Most developers write code. Most security analysts read logs. <strong>I do both — and that combination is my biggest strength, not a confusion.</strong></p>
+      <div class="card-container">
+        <div class="card edge-card reveal">
+          <span class="edge-icon" aria-hidden="true">🛡️</span>
+          <h3 data-i18n="edge.c1h">I think like an attacker</h3>
+          <p data-i18n="edge.c1p">120 hours of SOC training at Green Circle, monitoring and triaging real security alerts in Splunk, plus a Penetration Testing Practitioner certificate. I know how systems get breached — SQL injection, XSS, brute force — because I’ve hunted these patterns in real logs.</p>
+        </div>
+        <div class="card edge-card reveal">
+          <span class="edge-icon" aria-hidden="true">💻</span>
+          <h3 data-i18n="edge.c2h">I build like an engineer</h3>
+          <p data-i18n="edge.c2p">A production 8+ page React.js + Firebase application delivered to a real client, 15+ reusable components at Softylous, and a graduation project integrating OpenAI Whisper with Flask. I ship working software, not just theory.</p>
+        </div>
+        <div class="card edge-card reveal">
+          <span class="edge-icon" aria-hidden="true">🔐</span>
+          <h3 data-i18n="edge.c3h">Secure by design</h3>
+          <p data-i18n="edge.c3p">JWT authentication, role-based access control, Firestore security rules, input validation and rate limiting — baked in from day one, not patched later. For a company, that means less security debt and cheaper audits.</p>
+        </div>
+      </div>
+      <p class="edge-quote reveal" data-i18n="edge.quote">“Two skill sets. One goal: software that works beautifully — and doesn’t get hacked.”</p>
+    </section>
+
+    <section id="skills">
+      <h2 data-i18n="skills.h2">What I Know</h2>
+      <div class="card-container skills">
+        <div class="card reveal"><h3 data-i18n="skills.fh">Frontend</h3><ul class="chips"><li>HTML5</li><li>CSS3</li><li>JavaScript (ES6+)</li><li>React.js</li><li>Responsive Design</li><li>UI/UX Optimization</li></ul></div>
+        <div class="card reveal"><h3 data-i18n="skills.bh">Backend &amp; Data</h3><ul class="chips"><li>Python (Flask)</li><li>REST APIs</li><li>Node.js (basic)</li><li>SQL</li><li>Firebase</li><li>JWT Authentication</li></ul></div>
+        <div class="card reveal"><h3 data-i18n="skills.sh">Security &amp; Tools</h3><ul class="chips"><li>Secure Coding (OWASP)</li><li>Splunk &amp; Log Analysis</li><li>Git &amp; GitHub</li><li>Agile </li><li>Linux</li></ul></div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2 data-i18n="proj.h2">What I Built</h2>
+      <p data-i18n="proj.lead">Four course projects from the Web Piscine, each completed and passed in peer evaluation.</p>
+      <div class="card-container">
+        <article class="card project reveal">
+          <span class="badge" data-i18n="proj.badge.passed">Passed</span>
+          <h3><span class="num">00</span><span data-i18n="proj.p0h">Linux, Git &amp; GitHub</span></h3>
+          <p data-i18n="proj.p0p">Worked entirely in the terminal: built a directory tree, wrote a shell script that creates, copies, renames and deletes files, then versioned the work with Git and published it to a public GitHub repository. Bonus: SSH key authentication with ed25519.</p>
+          <ul class="tags"><li>pwd · ls · cd · mkdir -p</li><li>Shell script</li><li>git add / commit / push</li><li>SSH</li></ul>
+          <a href="https://github.com/areej03-09/discovery-web-piscine" target="_blank" rel="noopener noreferrer" data-i18n="proj.link">View on GitHub</a>
+        </article>
+        <article class="card project reveal">
+          <span class="badge" data-i18n="proj.badge.passed">Passed</span>
+          <h3><span class="num">01</span><span data-i18n="proj.p1h">HTML Fundamentals</span></h3>
+          <p data-i18n="proj.p1p">Six pages that cover the structure of the web: a valid HTML5 document, text hierarchy, links and images, lists and data tables, an accessible registration form with native validation, and a technical blog built from semantic landmarks.</p>
+          <ul class="tags"><li>Semantic HTML5</li><li>Accessible forms</li><li>Tables &amp; lists</li><li>Landmarks</li></ul>
+          <a href="https://github.com/areej03-09/project01" target="_blank" rel="noopener noreferrer" data-i18n="proj.link">View on GitHub</a>
+        </article>
+        <article class="card project reveal">
+          <span class="badge" data-i18n="proj.badge.passed">Passed</span>
+          <h3><span class="num">02</span><span data-i18n="proj.p2h">CSS &amp; Visual Presentation</span></h3>
+          <p data-i18n="proj.p2p">Designed interfaces with Flexbox navigation and card grids, fixed and absolute positioning, shapes drawn in pure CSS, colour models with RGBA versus opacity, and the box model with a universal reset. Bonus: a looping loader and hover micro-interactions.</p>
+          <ul class="tags"><li>Flexbox</li><li>Positioning</li><li>Box model</li><li>Animations</li></ul>
+          <a href="https://github.com/areej03-09/project02-CSS" target="_blank" rel="noopener noreferrer" data-i18n="proj.link">View on GitHub</a>
+        </article>
+        <article class="card project reveal">
+          <span class="badge" data-i18n="proj.badge.passed">Passed</span>
+          <h3><span class="num">03</span><span data-i18n="proj.p3h">JavaScript &amp; Interactivity</span></h3>
+          <p data-i18n="proj.p3p">Moved from variables and functions to DOM manipulation and events: a grade calculator, a click counter that changes colour with its value, and a task manager that adds, completes and deletes tasks while keeping a live counter.</p>
+          <ul class="tags"><li>ES6+</li><li>DOM</li><li>Events</li><li>DevTools</li></ul>
+          <a href="https://github.com/areej03-09/project03" target="_blank" rel="noopener noreferrer" data-i18n="proj.link">View on GitHub</a>
+        </article>
+      </div>
+
+      <h3 class="subhead" data-i18n="proj.sub">Professional work</h3>
+      <div class="card-container">
+        <article class="card project reveal">
+          <span class="badge" data-i18n="proj.badge.live">Live</span>
+          <h3 data-i18n="proj.mh">Mohja Company Website</h3>
+          <p data-i18n="proj.mp">Freelance project for a real client: 8+ pages in React.js, an admin dashboard, Firebase Authentication, Firestore security rules and role-based access for three user tiers — designed, built and deployed within two months.</p>
+          <ul class="tags"><li>React.js</li><li>Firebase Auth</li><li>Firestore Rules</li><li>RBAC</li><li>Admin Dashboard</li></ul>
+          <a href="https://mohja-1a6d4.web.app/" target="_blank" rel="noopener noreferrer" data-i18n="proj.mlink">Visit the live site</a>
+        </article>
+        <article class="card project reveal">
+          <span class="badge" data-i18n="proj.badge.grad">Graduation</span>
+          <h3 data-i18n="proj.sh2">Secure Content Grabber</h3>
+          <p data-i18n="proj.sp">Graduation project: a React.js and Flask application for AI-powered video analysis with OpenAI Whisper speech-to-text, JWT authentication, rate limiting, input validation and XSS protection.</p>
+          <ul class="tags"><li>React.js</li><li>Flask</li><li>OpenAI Whisper</li><li>JWT</li><li>OWASP</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="certificates">
+      <h2 data-i18n="cert.h2">Certifications</h2>
+      <p data-i18n="cert.lead">Certificates and credentials that back up my skills.</p>
+      <div class="card-container">
+        <article class="card cert reveal">
+          <span class="cert-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13 17 22l-5-3-5 3 1.5-9"/></svg></span>
+          <h3 data-i18n="cert.c1h">Full Stack Web Development</h3>
+          <p class="cert-org" data-i18n="cert.c1o">Al Hussein Technical University (HTUx) · Jan 2026</p>
+        </article>
+        <article class="card cert reveal">
+          <span class="cert-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13 17 22l-5-3-5 3 1.5-9"/></svg></span>
+          <h3 data-i18n="cert.c2h">Security Operations Center (SOC) Track</h3>
+          <p class="cert-org" data-i18n="cert.c2o">120 training hours · Green Circle for Software Solutions · Dec 2025</p>
+        </article>
+        <article class="card cert reveal">
+          <span class="cert-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13 17 22l-5-3-5 3 1.5-9"/></svg></span>
+          <h3 data-i18n="cert.c3h">Youth Grow Activity (YGA) Employability Program</h3>
+          <p class="cert-org" data-i18n="cert.c3o">Six-month program · U.S. Embassy Amman &amp; Q2 Impact Jordan · 2025–2026</p>
+        </article>
+        <article class="card cert reveal">
+          <span class="cert-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13 17 22l-5-3-5 3 1.5-9"/></svg></span>
+          <h3 data-i18n="cert.c4h">Cyber Security Associate</h3>
+          <p class="cert-org" data-i18n="cert.c4o">Green Circle for Software Solutions · 2025</p>
+        </article>
+        <article class="card cert reveal">
+          <span class="cert-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13 17 22l-5-3-5 3 1.5-9"/></svg></span>
+          <h3 data-i18n="cert.c5h">Penetration Testing Practitioner (PTP)</h3>
+          <p class="cert-org" data-i18n="cert.c5o">Cyber Shields · 2024</p>
+        </article>
+        <article class="card cert reveal">
+          <span class="cert-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13 17 22l-5-3-5 3 1.5-9"/></svg></span>
+          <h3 data-i18n="cert.c6h">UI/UX Design</h3>
+          <p class="cert-org" data-i18n="cert.c6o">32 hours · The Hope International Company · 2024</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 data-i18n="contact.h2">Get In Touch</h2>
+      <p class="contact-lead" data-i18n="contact.lead">Open to junior full-stack, frontend and cybersecurity roles. The fastest ways to reach me:</p>
+      <div class="contact-methods">
+        <a class="contact-method" href="mailto:areejaldabbagh03@gmail.com">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+          areejaldabbagh03@gmail.com
+        </a>
+        <a class="contact-method" href="tel:+962785019582">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.6 2.81.72A2 2 0 0 1 22 16.92z"/></svg>
+          +962 785019582
+        </a>
+        <a class="contact-method" href="https://linkedin.com/in/areej-al-dobagh" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+          LinkedIn
+        </a>
+        <a class="contact-method" href="https://github.com/areej03-09?tab=repositories" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2.17c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.78 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+          GitHub
+        </a>
+      </div>
+      <form id="contact-form" action="https://formspree.io/f/mkjozpqv" method="POST">
+        <label for="name" data-i18n="form.name">Name</label>
+        <input id="name" name="name" type="text" autocomplete="name" minlength="2" required>
+        <label for="email" data-i18n="form.email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required>
+        <label for="topic" data-i18n="form.topic">Reason for contact</label>
+        <select id="topic" name="topic" required>
+          <option value="Job opportunity" data-i18n="form.opt1">Job opportunity</option>
+          <option value="Freelance project" data-i18n="form.opt2">Freelance project</option>
+          <option value="Collaboration" data-i18n="form.opt3">Collaboration</option>
+          <option value="Something else" data-i18n="form.opt4">Something else</option>
+        </select>
+        <fieldset>
+          <legend data-i18n="form.legend">Reply by</legend>
+          <label class="inline"><input type="radio" name="reply" value="email" checked> <span data-i18n="form.reply1">Email</span></label>
+          <label class="inline"><input type="radio" name="reply" value="linkedin"> <span data-i18n="form.reply2">LinkedIn</span></label>
+        </fieldset>
+        <label for="msg" data-i18n="form.msg">Message</label>
+        <textarea id="msg" name="message" rows="4" minlength="10" required></textarea>
+        <button type="submit" data-i18n="form.send">Send Message</button>
+        <p id="form-status" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a class="logo" href="#about">Areej <span>Al-Dobagh</span></a>
+        <p data-i18n="footer.brand">Full-stack web developer with a cybersecurity background, building secure and responsive web applications.</p>
+        <div class="social">
+          <a href="mailto:areejaldabbagh03@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></a>
+          <a href="tel:+962785019582" aria-label="Phone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.6 2.81.72A2 2 0 0 1 22 16.92z"/></svg></a>
+          <a href="https://linkedin.com/in/areej-al-dobagh" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg></a>
+          <a href="https://github.com/areej03-09?tab=repositories" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2.17c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.78 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h3 class="footer-title" data-i18n="footer.links">Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="#about" data-i18n="nav.about">About</a></li>
+          <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+          <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+          <li><a href="#certificates" data-i18n="nav.certificates">Certificates</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer-title" data-i18n="footer.contact">Contact</h3>
+        <ul class="footer-contact">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg><a href="mailto:areejaldabbagh03@gmail.com">areejaldabbagh03@gmail.com</a></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.6 2.81.72A2 2 0 0 1 22 16.92z"/></svg><a href="tel:+962785019582">+962 785019582</a></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg><span data-i18n="footer.loc">Amman, Jordan</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy">
+      <p data-i18n="footer.copy">© 2026 Areej Al-Dobagh. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button id="back-to-top" type="button" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
